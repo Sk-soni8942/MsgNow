@@ -52,7 +52,7 @@ const authUser = asyncHandler(async (req, res) => {
   }
 });
 
-//api/user?search=Manoj
+
 
 const allUsers = asyncHandler(async (req, res) => {
   const keyword = req.query.search
